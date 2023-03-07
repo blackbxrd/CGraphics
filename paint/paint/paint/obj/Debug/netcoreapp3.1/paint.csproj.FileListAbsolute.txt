@@ -1,0 +1,15 @@
+D:\c# app\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.exe
+D:\c# app\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.deps.json
+D:\c# app\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.runtimeconfig.json
+D:\c# app\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.runtimeconfig.dev.json
+D:\c# app\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.dll
+D:\c# app\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.pdb
+D:\c# app\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.csproj.AssemblyReference.cache
+D:\c# app\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.Form1.resources
+D:\c# app\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.csproj.GenerateResource.cache
+D:\c# app\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.AssemblyInfoInputs.cache
+D:\c# app\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.AssemblyInfo.cs
+D:\c# app\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.csproj.CoreCompileInputs.cache
+D:\c# app\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.dll
+D:\c# app\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.pdb
+D:\c# app\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.genruntimeconfig.cache
