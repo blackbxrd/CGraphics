@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
+
 namespace paint
 {
 
@@ -24,13 +25,20 @@ namespace paint
         Point px, py;
         Pen p = new Pen(Color.Black, 1);
         int index;
-        int x, y, cX, cY;
+        int x, y, cX, cY, arX, arY;
+        int[,] array4dots;
+        int[,] array4line;
+
+
         public Form1()
         {
             InitializeComponent();
             this.Width = 900;
-            this.Height = 700;
-       
+            this.Height = 700; 
+            int[,] array4dots = new int[bm.Width, bm.Height];
+            int[,] array4line = new int[bm.Width, bm.Height];
+
+
             bm = new Bitmap(pic.Width, pic.Height);
             
             this.DoubleBuffered = true;
@@ -42,13 +50,13 @@ namespace paint
 
         }
 
+        
 
 
 
 
 
-
-    private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             index = 2;
         }
@@ -70,33 +78,22 @@ namespace paint
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*            g.TranslateTransform((float)bm.Width / 2, (float)bm.Height / 2);
-
-
-                            g.RotateTransform(30);
-
-                            g.TranslateTransform(-(float)bm.Width / 2, -(float)bm.Height / 2);
-
-                            //set the InterpolationMode to HighQualityBicubic so to ensure a high
-                            //quality image once it is transformed to the specified size
-                            g.InterpolationMode = InterpolationMode.HighQualityBicubic;
-
-                            //now draw our new image onto the graphics object
-                            g.DrawImage(pic.Image, new Point(0, 0));
-
-                            //dispose of our Graphics object
-                            g.Dispose();
-
-            */
+            
             var c = new Point(bm.Width / 2, bm.Height / 2);
             var temp = new Bitmap(bm);
             var gr = Graphics.FromImage(bm);
+            gr.Clear(Color.White);
+            int angle = 90;
+
+            double sin = Math.Sin(angle);
+            double cos = Math.Cos(angle);
+
+
             
-            int angle=90;
-                             
-            var m = new Matrix();
-            m.RotateAt(angle, c);
-            gr.Transform = m;
+            
+            
+            
+           
                 
             gr.DrawImage(temp, Point.Empty);
             
@@ -126,7 +123,10 @@ namespace paint
                 if(index==1)
                 {
                     px = e.Location;
+                    arX = e.X;
+                    arY = e.Y;
                     g.DrawLine(p, px, py);
+                    array4dots[arY, arX] = 1;
                     py = px;
                 }
             }
@@ -142,9 +142,10 @@ namespace paint
         {
             paint = false;
 
-            
+            x = e.X;
+            y = e.Y;
 
-            if(index==2)
+            if (index==2)
             {
                 g.DrawLine(p, cX, cY, x, y);
             }

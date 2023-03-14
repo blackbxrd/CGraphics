@@ -93,6 +93,7 @@ namespace graphics1
                 while (x1 < x2)
                 {
                     x1 = x1 + size;
+                    y1 = y1 + size;
                     PutPixel(g, RoundToPixelSize(x1, size), RoundToPixelSize(y1, size), size, col);
                 }
             }
