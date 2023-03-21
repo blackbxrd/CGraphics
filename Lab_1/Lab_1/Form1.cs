@@ -48,9 +48,13 @@ namespace Lab_1
             if (x1 > x2)
             {
                 s = x1; x1 = x2; x2 = s;
+                
+            }
+            if(y1 > y2)
+            {
                 s = y1; y1 = y2; y2 = s;
             }
-            dx = x2 - x1; dy = y2 - y1;
+            dx = Math.Abs(x2 - x1); dy = Math.Abs(y2 - y1);
             PutPixel(g, (int)x1, (int)y1, size, col);
             if (dx == 0 && dy == 0) return;
 
@@ -61,9 +65,19 @@ namespace Lab_1
             {                 /* Наклон == 45 градусов */
                 while (x1 < x2)
                 {
-                    x1 = x1 + size;
-                    y1 = y1 + size;
-                    PutPixel(g, RoundToPixelSize(x1, size), RoundToPixelSize(y1, size), size, col);
+                    if (y1 < y2)
+                    {
+                        x1 = x1 + size;
+                        y1 = y1 + size;
+                        PutPixel(g, RoundToPixelSize(x1, size), RoundToPixelSize(y1, size), size, col);
+                    }
+                    else
+                    {
+                        x1 = x1 + size;
+                        y1 = y1 - size;
+                        PutPixel(g, RoundToPixelSize(x1, size), RoundToPixelSize(y1, size), size, col);
+
+                    }
                 }
             }
             else if (dx > dy)
@@ -72,8 +86,15 @@ namespace Lab_1
                 while (x1 < x2)
                 {
                     x1 = x1 + size;
+                    
+
                     s = s + dy;
-                    if (s >= dx) { s = s - dx; y1 = y1 + size; }
+
+                    if (s >= dx)
+                    {
+                        s = s - dx; 
+                        y1 = Math.Abs(y1 - size);
+                    }
                     PutPixel(g, RoundToPixelSize(x1, size), RoundToPixelSize(y1, size), size, col);
                 }
             }
@@ -84,7 +105,11 @@ namespace Lab_1
                 {
                     y1 = y1 + size;
                     s = s + dx;
-                    if (s >= dy) { s = s - dy; x1 = x1 + size; }
+                    if (s >= dy) 
+                    {
+                        s = s - dy;
+                        x1 = x1 + size; 
+                    }
                     PutPixel(g, RoundToPixelSize(x1, size), RoundToPixelSize(y1, size), size, col);
                 }
             }
@@ -174,7 +199,7 @@ namespace Lab_1
             pixelSize = Convert.ToInt16(this.numericUpDown1.Text);
             if (pixelSize > 0)
             {
-                grid(g,pixelSize);
+                grid(g, pixelSize);
                 grid(g1, pixelSize);
                 NonSymDDALine(g, (int)pointX1, (int)pointY1, (int)pointX2, (int)pointY2, pixelSize, Color.Red);
                 BrezengamLine(g1, (int)pointX1, (int)pointY1, (int)pointX2, (int)pointY2, pixelSize, Color.Blue);

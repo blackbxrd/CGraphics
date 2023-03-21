@@ -8,3 +8,14 @@ D:\1ivt\CM\Lab_2\Lab_2\obj\Debug\Lab_2.csproj.GenerateResource.cache
 D:\1ivt\CM\Lab_2\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
 D:\1ivt\CM\Lab_2\Lab_2\obj\Debug\Lab_2.exe
 D:\1ivt\CM\Lab_2\Lab_2\obj\Debug\Lab_2.pdb
+C:\ivt\CGraphics-main\Lab_2\Lab_2\bin\Debug\Lab_2.exe.config
+C:\ivt\CGraphics-main\Lab_2\Lab_2\bin\Debug\Lab_2.exe
+C:\ivt\CGraphics-main\Lab_2\Lab_2\bin\Debug\Lab_2.pdb
+C:\ivt\CGraphics-main\Lab_2\Lab_2\obj\Debug\Lab_2.csproj.AssemblyReference.cache
+C:\ivt\CGraphics-main\Lab_2\Lab_2\obj\Debug\Lab_2.csproj.SuggestedBindingRedirects.cache
+C:\ivt\CGraphics-main\Lab_2\Lab_2\obj\Debug\Lab_2.Form1.resources
+C:\ivt\CGraphics-main\Lab_2\Lab_2\obj\Debug\Lab_2.Properties.Resources.resources
+C:\ivt\CGraphics-main\Lab_2\Lab_2\obj\Debug\Lab_2.csproj.GenerateResource.cache
+C:\ivt\CGraphics-main\Lab_2\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+C:\ivt\CGraphics-main\Lab_2\Lab_2\obj\Debug\Lab_2.exe
+C:\ivt\CGraphics-main\Lab_2\Lab_2\obj\Debug\Lab_2.pdb
