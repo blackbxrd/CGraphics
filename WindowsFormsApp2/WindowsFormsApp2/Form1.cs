@@ -162,8 +162,8 @@ namespace WindowsFormsApp2
 
         private Point ProjectPoint(Point3D point, Point center)
         {
-            double x = point.X * center.Y / (point.Z + center.Y);
-            double y = point.Y * center.Y / (point.Z + center.Y);
+            double x = point.X ;
+            double y = point.Y ;
 
             return new Point(center.X + (int)x, center.Y - (int)y);
         }
