@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Новая папка\\CGraphics-main\\paint\\paint\\paint\\paint.csproj": {}
+    "D:\\1ivt\\CG\\paint\\paint\\paint\\paint.csproj": {}
   },
   "projects": {
-    "C:\\Новая папка\\CGraphics-main\\paint\\paint\\paint\\paint.csproj": {
+    "D:\\1ivt\\CG\\paint\\paint\\paint\\paint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Новая папка\\CGraphics-main\\paint\\paint\\paint\\paint.csproj",
+        "projectUniqueName": "D:\\1ivt\\CG\\paint\\paint\\paint\\paint.csproj",
         "projectName": "paint",
-        "projectPath": "C:\\Новая папка\\CGraphics-main\\paint\\paint\\paint\\paint.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Новая папка\\CGraphics-main\\paint\\paint\\paint\\obj\\",
+        "projectPath": "D:\\1ivt\\CG\\paint\\paint\\paint\\paint.csproj",
+        "packagesPath": "C:\\Users\\bxrd\\.nuget\\packages\\",
+        "outputPath": "D:\\1ivt\\CG\\paint\\paint\\paint\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bxrd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

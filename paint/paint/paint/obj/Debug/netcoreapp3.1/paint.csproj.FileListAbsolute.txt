@@ -29,3 +29,18 @@ C:\Новая папка\CGraphics-main\paint\paint\paint\obj\Debug\netcoreapp3.
 C:\Новая папка\CGraphics-main\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.dll
 C:\Новая папка\CGraphics-main\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.pdb
 C:\Новая папка\CGraphics-main\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.genruntimeconfig.cache
+D:\1ivt\CG\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.exe
+D:\1ivt\CG\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.deps.json
+D:\1ivt\CG\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.runtimeconfig.json
+D:\1ivt\CG\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.runtimeconfig.dev.json
+D:\1ivt\CG\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.dll
+D:\1ivt\CG\paint\paint\paint\bin\Debug\netcoreapp3.1\paint.pdb
+D:\1ivt\CG\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.csproj.AssemblyReference.cache
+D:\1ivt\CG\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.Form1.resources
+D:\1ivt\CG\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.csproj.GenerateResource.cache
+D:\1ivt\CG\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.AssemblyInfoInputs.cache
+D:\1ivt\CG\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.AssemblyInfo.cs
+D:\1ivt\CG\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.csproj.CoreCompileInputs.cache
+D:\1ivt\CG\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.dll
+D:\1ivt\CG\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.pdb
+D:\1ivt\CG\paint\paint\paint\obj\Debug\netcoreapp3.1\paint.genruntimeconfig.cache
